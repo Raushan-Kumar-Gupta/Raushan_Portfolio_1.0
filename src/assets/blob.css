@@ -1,0 +1,14 @@
+.blob_1 {
+    position: absolute;
+    top: -20%;
+    left: -10%;
+    right: 70%;
+    /* bottom: -100%; */
+    z-index: -1;
+    width: 900px;
+    height: 800px;
+    
+}
+.blob_1>path{
+    fill: rgb(149, 115, 221);
+}

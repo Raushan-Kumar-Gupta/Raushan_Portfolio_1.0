@@ -32,14 +32,14 @@ const HeroSection = () => {
 
   const [content, setContent] = useState({
     span1: "Web",
-    span2: "App",
+    span2: "Web",
   });
 
   const handleHover = (span) => {
     if (span === "span1") {
-      setContent({ span1: "App", span2: "Web" });
+      setContent({ span1: "Web", span2: "Web" });
     } else if (span === "span2") {
-      setContent({ span1: "Web", span2: "App" });
+      setContent({ span1: "Web", span2: "Web" });
     }
   };
 
